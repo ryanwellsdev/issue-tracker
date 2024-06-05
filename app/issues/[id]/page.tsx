@@ -4,7 +4,6 @@ import { Card, Flex, Heading, Text } from '@radix-ui/themes'
 import { notFound } from 'next/navigation'
 import ReactMarkdown from 'react-markdown'
 
-
 interface Props {
     params: { id: string}
 }
@@ -18,6 +17,8 @@ const  IssueDetailPage = async ({ params }: Props) => {
 
     if (!issue)
         notFound();
+
+
 
 
   return (
