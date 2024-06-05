@@ -8,7 +8,7 @@ import IssueToolbar from './IssueToolbar';
 
 const IssuesPage = async () => {
   const issue = await prisma.issue.findMany();
-  await delay(3000)
+  await delay(2000)
   return (
     <div>
       <IssueToolbar />
