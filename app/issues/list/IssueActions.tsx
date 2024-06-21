@@ -2,7 +2,7 @@ import { Button, Flex } from "@radix-ui/themes";
 import Link from "next/link";
 import IssueStatusFilter from "./IssueStatusFilter";
 
-const IssueToolbar = () => {
+const IssueActions = () => {
   return (
     <Flex mb="5" justify={"between"}>
       <IssueStatusFilter />
@@ -13,4 +13,4 @@ const IssueToolbar = () => {
   );
 };
 
-export default IssueToolbar;
+export default IssueActions;
